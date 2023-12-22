@@ -1,0 +1,57 @@
+html {
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+.flex-container {
+    display: flex;
+}
+  
+.flex-container > td {
+    background-color: blue;
+    background: linear-gradient(to top left, #000088, #0000ff);
+    color: yellow;
+    margin: 0px;
+    padding: 20px;
+    font-size: 35px;
+    border: black solid 1px;
+    width: 198px;
+    height:75px;
+}
+
+.banner {
+    color: yellow;
+    background: linear-gradient(to top left, #000088, #0000ff);
+    margin: 0px;
+    font-size: 40px;
+    text-align: center;
+    width: 100%;
+}
+
+
+
+button {
+    background-color: transparent;
+    color: yellow;
+    margin: 0px;
+    padding: 20px;
+    font-size: 35px;
+    border: transparent solid 1px;
+    width: 198px;
+    height:75px;
+    
+}
+.flex-container > td a {
+    text-decoration: none; /* Remove underline from links */
+    color: yellow;
+    display: block;
+    background-color: transparent;
+    padding: 20px;
+    font-size: 35px;
+    border: transparent solid 1px;
+    width: 100%; /* Make the link fill the entire TD */
+    height: 100%; /* Make the link fill the entire TD */
+}
+
+.flex-container > td a:visited {
+	color:lightblue;
+}

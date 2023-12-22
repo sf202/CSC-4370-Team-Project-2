@@ -1,0 +1,29 @@
+.jeopardy {
+    display: table;
+    margin: auto;
+}
+
+table{
+    text-align: center;
+}
+
+td{
+    border: 2px solid black;
+    width: 120px;
+    height:90px;
+    size: 100%;
+    background-color: blue;
+}
+
+th {
+    font-size: 30px;
+    border: 1px solid white; 
+}
+
+td:hover {
+    background-color: red;
+}
+
+a {
+    color: white;
+}

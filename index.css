@@ -1,0 +1,21 @@
+* {
+    color: white;
+}
+
+body {
+    background-size: cover;
+}
+
+h1 {
+    text-align: center;
+}
+
+.left {
+    float: left;
+    margin-left: 400px;
+}
+
+.right {
+    float: right;
+    margin-right: 400px;
+}
